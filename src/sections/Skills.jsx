@@ -1,5 +1,9 @@
 import SkillSlider from '../components/SkillSlider.jsx';
 
 export default function Skills() {
-  return <SkillSlider />;
+  return (
+    <section id="skills">
+      <SkillSlider />
+    </section>
+  );
 }
