@@ -58,13 +58,13 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
-    subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-    texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo1.png',
+    
+    title: 'Sealed – Custom WordPress Experience',
+    desc: 'Sealed is a high-performance, design-first WordPress site built from the ground up with a fully custom theme.',
+    subdesc: 'Developed in PHP with custom templating, animations, and scalable CMS components. Optimized for speed, SEO, and seamless client control. The result is a sleek, modern brand experience without relying on bloated plugins or third-party builders.',
+    href: 'https://sealed.ae/',
+    texture: '/textures/project/sealed.mp4',
+    logo: '/assets/Sealed.svg',
     logoStyle: {
       backgroundColor: '#2A1816',
       border: '0.2px solid #36201D',
@@ -74,34 +74,40 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Elementor',
+        path: '/assets/elementor.svg',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'Wordpress',
+        path: 'assets/wordpress.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'WPBakery',
+        path: '/assets/wpbakery.jpeg',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'WooCommerce',
+        path: '/assets/wocommerce.png',
+      },
+      {
+        id: 5,
+        name: 'Jquery',
+        path: '/assets/jquery.png',
       },
     ],
   },
-  {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
-    subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-    texture: '/textures/project/project2.mp4',
-    logo: '/assets/project-logo2.png',
+  
+    {
+      title: 'ILT Costa Rica – Symfony-Powered Booking Platform',
+      desc: 'ILT Costa Rica is a custom-built trip booking platform developed with Symfony for a seamless travel planning experience. Designed for international users seeking language and cultural immersion in Costa Rica.',
+      subdesc: 'Engineered with Symfony, jQuery, and Lodash for clean backend control and dynamic frontend interaction. Enhanced with GA4, Facebook Pixel, and Cloudflare CDN for performance, insight, and reach. Supports multilingual content and modern tracking via Google Tag Manager.',
+      
+    href: 'https://iltcostarica.com/',
+    texture: '/textures/project/ilt.mp4',
+    logo: '/assets/ilt2.jpeg',
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
@@ -111,34 +117,33 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Symfony',
+        path: '/assets/symfony.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'PHP',
+        path: '/assets/php.svg',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'Bootstrap',
+        path: '/assets/bootstrap.webp',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Google Analytics',
+        path: '/assets/google.jpg',
       },
     ],
   },
   {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
-    subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-    texture: '/textures/project/project3.mp4',
-    logo: '/assets/project-logo3.png',
+    title: 'MHP – AI-Powered Credit Wellness Platform',
+    desc: 'MyHomePathway is a full-stack financial wellness app that collects real-time credit and banking data to deliver personalized recommendations that help users improve their credit scores.',
+    subdesc: 'Built with NestJS, Next.js, Prisma, and PostgreSQL. It features bank-grade data handling, AI-driven recommendations, and smart course delivery to educate users on financial habits, real-world savings, and long-term credit health.',
+    href: 'https://app.myhomepathway.com',
+    texture: '/textures/project/mhp-app.mp4',
+    logo: '/assets/mhp.jpeg',
     logoStyle: {
       backgroundColor: '#60f5a1',
       background:
@@ -150,8 +155,8 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Next.js',
+        path: '/assets/next.jpeg',
       },
       {
         id: 2,
@@ -165,19 +170,23 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'NestJS',
+        path: '/assets/nest.webp',
+      },
+      {
+        id: 5,
+        name: 'AWS',
+        path: '/assets/aws.webp',
       },
     ],
   },
   {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
-    subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
-    texture: '/textures/project/project4.mp4',
-    logo: '/assets/project-logo4.png',
+    title: 'MHP Landing – Custom Squarespace Experience',
+    desc: 'The MHP landing platform combines custom responsive design with advanced financial tools like mortgage and tax calculators, offering users instant insight and actionable next steps.',
+    subdesc: 'Built on Squarespace with extended functionality using JavaScript, tracking, and analytics. Fully integrated with behavior tracking to monitor engagement and conversion in real time.',
+    href: 'https://myhomepathway.squarespace.com/mortgage-calculator',
+    texture: '/textures/project/mhp-landing.mp4',
+    logo: '/assets/mhp.jpeg',
     logoStyle: {
       backgroundColor: '#0E1F38',
       border: '0.2px solid #0E2D58',
@@ -187,34 +196,33 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Squarespace',
+        path: '/assets/sqaurespace.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'CSS',
+        path: 'assets/css.webp',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'JavaScript',
+        path: '/assets/js.jpg',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Google Analytics',
+        path: '/assets/google.jpg',
       },
     ],
   },
   {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-    subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-    texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
+    title: 'ZeroSwipe – Open Market Job Platform',
+    desc: 'ZeroSwipe connects people who need tasks done with those looking to earn — from casual gigs to professional work, all in one place.',
+    subdesc: 'A swipe-based platform where users can post and accept any type of job, from gardening to full-stack development. Designed for mobility, simplicity, and economic inclusion.',
+    href: 'https://zero-psi.vercel.app/',
+    texture: '/textures/project/zeroswip.mp4',
+    logo: '/assets/ZeroLogo.svg',
     logoStyle: {
       backgroundColor: '#1C1A43',
       border: '0.2px solid #252262',
@@ -234,13 +242,13 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'Expo',
+        path: '/assets/expo.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'MongoDB',
+        path: '/assets/mongo.jpg',
       },
     ],
   },
@@ -258,31 +266,32 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 };
 
 export const workExperiences = [
+   
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: '/assets/framer.svg',
+    name: 'MyHomePathway',
+    pos: 'Senior Full Stack Developer',
+    duration: 'Dec 2024 – Jun 2025',
+    title: "At MyHomePathway, I led the development of AI-powered recommendation systems using Ollama 3.2B and integrated user behavior analytics with Customer.io and Google Analytics. I also built automated testing pipelines with Selenium and Jest, and deployed scalable apps using AWS CI/CD pipelines. My work directly supported financial wellness tools that helped users improve their credit scores.",
+    icon: '/assets/mhp.jpeg',
     animation: 'victory',
   },
   {
     id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2020 - 2022',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: '/assets/figma.svg',
+    name: 'Tekvill',
+    pos: 'Senior Software Engineer',
+    duration: 'Oct 2022 – Present',
+    title: "At Tekvill, I developed enterprise-level backend APIs using Laravel and JS frameworks, worked with PostgreSQL and MongoDB, and maintained secure RESTful services. I also collaborated on frontend tasks using React.js and implemented clean testing with JUnit and Mockito in a microservices-based architecture.",
+    icon: '/assets/tekvill.jpeg',
     animation: 'clapping',
   },
   {
     id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: '/assets/notion.svg',
+    name: 'Digilynx',
+    pos: 'Full Stack Developer',
+    duration: 'Sep 2021 – Sep 2022',
+    title: "Digilynx was where I polished my full stack capabilities using the MERN stack. I contributed to dynamic frontend interfaces, secure Node.js APIs, and built real-time features. I also gained exposure to Agile workflows and CI/CD with GitHub Actions, while maintaining collaborative code quality through regular testing and code reviews.",
+    icon: '/assets/digilynx.jpeg',
     animation: 'salute',
-  },
+  }
 ];
