@@ -1,4 +1,3 @@
-import emailjs from '@emailjs/browser';
 import { useRef, useState } from 'react';
 
 import useAlert from '../hooks/useAlert.js';
@@ -20,48 +19,25 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        {
-          from_name: form.name,
-          to_name: 'JavaScript Mastery',
-          from_email: form.email,
-          to_email: 'sujata@jsmastery.pro',
-          message: form.message,
-        },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
-      )
-      .then(
-        () => {
-          setLoading(false);
-          showAlert({
-            show: true,
-            text: 'Thank you for your message 😃',
-            type: 'success',
-          });
+    // WhatsApp redirect (Pakistan code: 92, remove leading 0)
+    const whatsappMessage = `New Contact Form Submission:%0AName: ${form.name}%0AEmail: ${form.email}%0AMessage: ${form.message}`;
+    window.open(`https://wa.me/923230081202?text=${whatsappMessage}`, '_blank');
 
-          setTimeout(() => {
-            hideAlert(false);
-            setForm({
-              name: '',
-              email: '',
-              message: '',
-            });
-          }, [3000]);
-        },
-        (error) => {
-          setLoading(false);
-          console.error(error);
+    setLoading(false);
+    showAlert({
+      show: true,
+      text: 'Thank you for your message 😃',
+      type: 'success',
+    });
 
-          showAlert({
-            show: true,
-            text: "I didn't receive your message 😢",
-            type: 'danger',
-          });
-        },
-      );
+    setTimeout(() => {
+      hideAlert(false);
+      setForm({
+        name: '',
+        email: '',
+        message: '',
+      });
+    }, 3000);
   };
 
   return (
