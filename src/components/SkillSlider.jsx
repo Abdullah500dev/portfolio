@@ -60,9 +60,9 @@ export default function SkillSlider() {
   return (
     <div className="w-full max-w-6xl pl-2 md:pl-8 py-8">
       <div className="flex justify-between items-center mb-6">
-        <button ref={prevRef} className="swiper-button-prev text-2xl text-purple-400 hover:text-purple-200 transition-colors">&#8592;</button>
+        {/* <button ref={prevRef} className="swiper-button-prev text-2xl text-purple-400 hover:text-purple-200 transition-colors">&#8592;</button> */}
         <h2 className="text-xl md:text-2xl font-bold text-white flex-1 text-left">Skills</h2>
-        <button ref={nextRef} className="swiper-button-next text-2xl text-purple-400 hover:text-purple-200 transition-colors">&#8594;</button>
+        {/* <button ref={nextRef} className="swiper-button-next text-2xl text-purple-400 hover:text-purple-200 transition-colors">&#8594;</button> */}
       </div>
       <Swiper
         modules={[Navigation, Autoplay]}
